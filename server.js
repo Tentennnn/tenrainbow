@@ -81,4 +81,4 @@ client.on("message", async message => {
 
 ////////////////////////////////login bot////////////////////////////////////////////
 
-bot.login(token.tk)
+bot.login(process.env.TK)
